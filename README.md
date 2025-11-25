@@ -23,7 +23,7 @@
   </a>
 </p>
 
-# VS Code – Automatic Formatting Pack (Lite Version)
+# VS Code – Formatting Pack (Lite Version)
 
 ---
 
@@ -36,9 +36,11 @@ Previous GitHub demo versions have been cleaned and replaced with this unified, 
 ---
 
 A clean, ready-to-use setup for Visual Studio Code that keeps your files consistent, properly indented and organized — without relying on Prettier, external extensions, or custom scripts per project.
-This package contains the public preview version of the pack.
 
-## What this pack does:
+This package contains the public preview version of the pack.
+The full version (with ready-to-use scripts: clean.py, convert.py, space.py, automation tasks, installation guide, demos…) is available on Gumroad, Itch or Ko-Fi.
+
+What this pack does:
 
 - Automatically keeps your code clean, aligned, and consistent  
 - Works with Python, HTML, CSS, JS, and JSON  
@@ -56,7 +58,7 @@ This package contains the public preview version of the pack.
 ## Structure (Public version)
 
 ```
-VSCode_Automatic_Formatting_Pack/ (Lite Version)
+VSCode_Formatting_Pack/ (Lite Version)
 ├── README.md                    ← Main documentation (public)
 ├── LICENSE.txt                  ← Palks Studio Proprietary License
 ├── public_version/
@@ -133,9 +135,9 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
   - before/after examples, demo videos, Discord support  
 
 **Full version available here**
-- [Gumroad](https://palks.gumroad.com)  
-- [Itch.io](https://palks-studio.itch.io)  
-- [Ko-fi](https://ko-fi.com/palksstudio)
+- Gumroad: https://palks.gumroad.com  
+- Ko-fi: https://ko-fi.com/palksstudio  
+- Itch.io: http://palks-studio.itch.io
 
 
 ### Important — Script Behavior (Full Version Only)
@@ -188,3 +190,10 @@ Simplicity, clarity, efficiency.
 - Itch.io: http://palks-studio.itch.io  
 - Ko-fi: https://ko-fi.com/palksstudio  
 - Twitter (X): https://x.com/PalksStudio
+
+---
+
+## Signature
+
+**Palks Studio — Version 1.1**  
+Compatible with Visual Studio Code and Prettier
