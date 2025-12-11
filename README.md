@@ -132,7 +132,7 @@ The `.mp4` files in this folder (convert_lf.mp4, indent_clean.mp4, etc.) are int
 
 - Bonus content:  
 
-  - before/after examples, demo videos, Discord support  
+  - before/after examples, demo videos 
 
 **Full version available here**  
 - Gumroad: https://palks.gumroad.com  
