@@ -77,7 +77,7 @@ VSCode_Pack_Formatage/ (Lite Version)
         ├── indent_python.mp4    ← Fichier Python mal indenté corrigé automatiquement
         ├── backup.mp4           ← démontre le backup automatique à chaque sauvegarde (Ctrl+S) et la restauration d’un fichier supprimé
         └── space_cle
-
+```
 
 Les fichiers `.mp4` de ce dossier (convert_lf.mp4, indent_clean.mp4, etc.) sont volontairement inclus dans la version Lite — ce sont de vraies démonstrations issues du pack complet.
 
