@@ -1,12 +1,8 @@
-[   
+[
+
     {
         "key": "alt+m",
         "command": "editor.action.toggleMinimap",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+r",
-        "command": "editor.action.reindentlines",
         "when": "editorTextFocus"
     }
 ]
