@@ -1,20 +1,16 @@
 {
+    // ==============================
+    // VS CODE TASKS (LITE VERSION)
+    // ==============================
     "version": "2.0.0",
     "tasks": [
         {
-            // Format the current Python file using Autopep8
-            "label": "Format current Python file (Autopep8)",
+            "label": "Margin detection (read-only)",
             "type": "shell",
-            "detail": "Applies Autopep8 to the active Python file",
+            "detail": "Analyzes files and reports margin issues without modifying them",
             "command": "${config:python.defaultInterpreterPath}",
             "args": [
-                "-m",
-                "autopep8",
-                "--in-place",
-                "--aggressive",
-                "--max-line-length",
-                "100",
-                "${file}"
+                "space.py"
             ],
             "presentation": {
                 "reveal": "always",
