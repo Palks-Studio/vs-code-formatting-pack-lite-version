@@ -7,7 +7,7 @@
 ![Éditeur](https://img.shields.io/badge/Éditeur-VS%20Code-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Plateforme](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
-![License](https://img.shields.io/badge/License-LICENSE_EN.md-lightgreen.svg)
+![License](https://img.shields.io/badge/License-LICENSE.md-lightgreen.svg)
 
 <p align="center">
   <a href="https://palks.gumroad.com/" target="_blank">
@@ -43,41 +43,34 @@ Aucune automatisation.
 
 ```
 VSCode_Pack_Formatage/ (Version lite)
-├── README.md
-│   ← Documentation publique de la version Lite
-│     (périmètre limité, aucune modification de fichiers)
+├── README.md                 ← Documentation publique de la version Lite
+│                             (périmètre limité, aucune modification de fichiers)
 │
-├── LICENCE_FR.md
-│   ← Licence propriétaire – Palks Studio
+├── LICENCE.md                ← LICENCE.md — Conditions d’utilisation et cadre légal
 │
 ├── version_publique/
 │   └── .vscode/
-│       ├── settings.json
-│       │   ← Réglages passifs de l’éditeur
-│       │     - UTF-8
-│       │     - fins de ligne LF
-│       │     - indentation visuelle (4 espaces)
-│       │     - affichage des marges
-│       │     - aucun formatage automatique
+│       ├── settings.json     ← Réglages passifs de l’éditeur
+│       │                       - UTF-8
+│       │                       - fins de ligne LF
+│       │                       - indentation visuelle (4 espaces)
+│       │                       - affichage des marges
+│       │                       - aucun formatage automatique
 │       │
-│       ├── keybindings.json
-│       │   ← Raccourci unique :
-│       │     Alt + M → afficher / masquer la minimap
+│       ├── keybindings.json  ← Raccourci unique :
+│       │                     Alt + M → afficher / masquer la minimap
 │       │
-│       └── tasks.json
-│           ← Tâche VS Code (lecture seule) :
-│             - Margin detection (read-only)
-│             - analyse des marges
-│             - aucun fichier modifié
+│       └── tasks.json        ← Tâche VS Code (lecture seule) :
+│                               - Margin detection (read-only)
+│                               - analyse des marges
+│                               - aucun fichier modifié
 │
-├── example_structure.txt
-│   ← Aperçu de l’arborescence et des fonctionnalités
-│     de la version complète (Pro)
+├── example_structure.txt     ← Aperçu de l’arborescence et des fonctionnalités
+│                             de la version complète (Pro)
 │
 └── docs/
     └── images/
-        └── Palks_Studio.png
-            ← Visuel propriétaire (branding)
+        └── Palks_Studio.png  ← Visuel propriétaire (branding)
 ```
 
 
@@ -204,11 +197,8 @@ transparente et prévisible.
 
 ---
 
-## Signature
-
 **Palks Studio — Version 1.1**  
 Compatible avec Visual Studio Code (Prettier désactivé par défaut).
 
+© Palks Studio — voir LICENCE.md
 - https://palks-studio.com
-
-© Palks Studio — voir LICENSE_EN.md
