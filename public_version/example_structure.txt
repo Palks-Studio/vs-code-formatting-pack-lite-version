@@ -19,7 +19,7 @@ VSCode_Formatting_Pack/
 ├── backup.py                           ← Timestamped backup of the file on save (Ctrl + S)
 │                                         via the Auto-Backup task
 │
-├── LICENCE_EN.md                       ← Proprietary license (Palks Studio)
+├── LICENSE.md                          ← Terms of use and legal framework
 ├── INSTALL.md                          ← Installation and usage guide
 ├── README_COMMERCIAL.md                ← Product commercial overview
 │
@@ -35,3 +35,45 @@ VSCode_Formatting_Pack/
         │                                 and how to restore a deleted file from the backup folder
         └── space_clean.mp4             ← Broken file analyzed and margins detected (read-only)
 ```
+
+
+---
+
+```
+VSCode_Pack_Formatage/
+│
+├── .vscode/
+│   ├── extensions.json                 ← Désactivation locale des extensions conflictuelles (Prettier, Run on Save)
+│   ├── launch.json                     ← Exécution rapide du script Python actif
+│   ├── settings.json                   ← Réglages complets de VS Code (indentation, LF, UTF-8, confort d’édition)
+│   ├── keybindings.json                ← Raccourcis : Alt + M (minimap), Alt + R (réindentation)
+│   └── tasks.json                      ← Tâches VS Code (exécutables manuellement) :
+│                                           - Formatage Python + nettoyage des marges
+│                                             (autopep8 + clean.py, fichier actif)
+│                                           - Nettoyage des marges (clean.py — global / fichier actif / sélection personnalisée)
+│                                           - Détection des marges (space.py — analyse seule, lecture seule)
+│                                           - Conversion CRLF → LF (convert.py — global / fichier actif / sélection personnalisée)
+│
+├── clean.py                            ← Nettoyage général des marges et espaces inutiles
+├── convert.py                          ← Normalisation des fins de ligne (CRLF → LF)
+├── space.py                            ← Analyse des marges inutiles (lecture seule)
+├── backup.py                           ← Sauvegarde horodatée du fichier lors de l’enregistrement (Ctrl + S)
+│                                         via la tâche Auto-Backup
+│
+├── LICENCE.md                          ← Conditions d’utilisation et cadre légal
+├── INSTALL.md                          ← Guide d’installation et d’utilisation
+├── README_COMMERCIAL.md                ← Présentation commerciale du produit
+│
+└── docs/
+    ├── TECHNICAL_README.md             ← Documentation technique interne, maintenance et évolutions futures
+    └── exemples/                       ← (Optionnel) Exemples détaillés avant / après formatage
+        ├── avant.py                    ← Fichiers exemples non structurés
+        ├── apres.py                    ← Versions propres générées par le pack
+        ├── convert_lf.mp4              ← Fichiers CRLF convertis automatiquement en LF
+        ├── indent_clean.mp4            ← Correction instantanée des marges et indentations incorrectes
+        ├── indent_python.mp4           ← Fichier Python mal indenté corrigé automatiquement
+        ├── backup.mp4                  ← Démonstration de la sauvegarde automatique à chaque Ctrl + S
+        │                                 et de la restauration d’un fichier supprimé depuis le dossier de sauvegarde
+        └── space_clean.mp4             ← Analyse d’un fichier volontairement cassé (détection des marges, lecture seule)
+```
+
