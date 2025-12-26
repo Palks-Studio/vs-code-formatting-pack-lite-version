@@ -23,7 +23,7 @@
   </a>
 </p>
 
-# VS Code – Formatting Pack (Lite Version)
+# VS Code Formatting Pack (Lite Version)
 
 **Version 1.1 — Public Demo**
 
@@ -42,7 +42,7 @@ No automation.
 ## Structure (Public version)
 
 ```
-VSCode_Formatting_Pack/ (Lite Version)
+vscode_formatting_pack_lite/
 ├── README.md                 ← Public documentation for the Lite version
 │                             (limited scope, no file modification)
 │   
