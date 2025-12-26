@@ -1,5 +1,5 @@
 ```
-VSCode_Formatting_Pack/
+vscode_formatting_pack/
 │
 ├── .vscode/
 │   ├── extensions.json                 ← Local disabling of conflicting extensions (Prettier, RunOnSave)
@@ -40,7 +40,7 @@ VSCode_Formatting_Pack/
 ---
 
 ```
-VSCode_Pack_Formatage/
+vscode_pack_formatage/
 │
 ├── .vscode/
 │   ├── extensions.json                 ← Désactivation locale des extensions conflictuelles (Prettier, Run on Save)
