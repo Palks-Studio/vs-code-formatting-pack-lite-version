@@ -81,14 +81,11 @@ Les fichiers `.mp4` de ce dossier (convert_lf.mp4, indent_clean.mp4, etc.) sont 
 ## Ce que fait cette version Lite
 
 - Applique des **réglages passifs de l’éditeur** pour garantir cohérence et lisibilité
-
 - Assure notamment :  
-
   - un encodage **UTF-8**  
   - des fins de ligne en **LF**  
   - une indentation visuelle (4 espaces)  
-  - l’affichage des espaces significatifs
-
+  - l’affichage des espaces significatifs  
 - Fournit une **tâche de détection des marges en lecture seule**  
 - Inclut un raccourci clavier minimal pour le confort de navigation
 
@@ -157,11 +154,9 @@ La version Lite contient une configuration publique minimale :
 - `.vscode/`  
   - `settings.json` — réglages passifs de l’éditeur  
   - `keybindings.json` — bascule de la minimap uniquement  
-  - `tasks.json` — détection des marges (lecture seule)
-
+  - `tasks.json` — détection des marges (lecture seule)  
 - `example_structure.txt`  
-  - aperçu de la structure et des fonctionnalités de la version Pro
-
+  - aperçu de la structure et des fonctionnalités de la version Pro  
 - `docs/images/`  
   - visuel propriétaire Palks Studio
 
@@ -176,7 +171,7 @@ La **version Pro** inclut notamment :
 - l’analyse et le reporting détaillés (`space.py`)  
 - les sauvegardes automatiques à l’enregistrement (`backup.py`)  
 - plusieurs modes d’exécution  
-  (global / fichier actif / sélection personnalisée)  
+  - (global / fichier actif / sélection personnalisée)  
 - une documentation complète et des exemples réels d’utilisation
 
 La version Lite est volontairement limitée  
@@ -200,5 +195,5 @@ transparente et prévisible.
 **Palks Studio — Version 1.1**  
 Compatible avec Visual Studio Code (Prettier désactivé par défaut).
 
-© Palks Studio — voir LICENCE.md
+© Palks Studio — voir LICENCE.md  
 - https://palks-studio.com
